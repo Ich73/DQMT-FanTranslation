@@ -1,0 +1,53 @@
+
+{
+	"SEP": "E31B",
+	"XDELTA":
+	{
+		"Banner": [".bcwav", ".cbmd", ".cgfx"],
+		"ExeFS": [".bin", ".lz"],
+		"Battle": [".bcres", ".nut"],
+		"CrossMenu": [".bcres", ".bcenv"],
+		"Effect": [".bcres"],
+		"Event": [".gz"],
+		"ExtSaveData": [".icn"],
+		"Field": [".xbb", ".nut"],
+		"Flash": [".flb"],
+		"Font": [".bcfnt"],
+		"Layout": [".arc", ".nut"],
+		"Model": [".bcres", ".bcenv", ".bcmdl"],
+		"MonsterIcon": [".bclim"],
+		"NaviMap": [".arc"],
+		"NetworkIcon": [".ctpk"],
+		"Npc": [".nut"],
+		"Param": [".bin", ".gz"],
+		"Test": [".txt", ".bin", ".nut", ".gz"],
+		"Title": [".bcres"]
+	},
+	"PAT":
+	{
+		"Message": ["binJ", ".binJ", ".savJ", ".patJ"],
+		"Event": ["e", ".e", ".savE", ".patE"]
+	},
+	"PARENT":
+	{
+		"Banner": "ExtractedBanner",
+		"ExeFS": "ExtractedExeFS",
+		"Battle": "ExtractedRomFS/data/Battle",
+		"Effect": "ExtractedRomFS/data/Effect",
+		"Event": "ExtractedRomFS/data/Event",
+		"ExtSaveData": "ExtractedRomFS/data/ExtSaveData",
+		"Field": "ExtractedRomFS/data/Field",
+		"Flash": "ExtractedRomFS/data/Flash",
+		"Font": "ExtractedRomFS/data/Font",
+		"Layout": "ExtractedRomFS/data/Layout",
+		"Message": "ExtractedRomFS/data/Message",
+		"Model": "ExtractedRomFS/data/Model",
+		"MonsterIcon": "ExtractedRomFS/data/MonsterIcon",
+		"NaviMap": "ExtractedRomFS/data/NaviMap",
+		"NetworkIcon": "ExtractedRomFS/data/NetworkIcon",
+		"Npc": "ExtractedRomFS/data/Npc",
+		"Param": "ExtractedRomFS/data/Param",
+		"Test": "ExtractedRomFS/data/Test",
+		"Title": "ExtractedRomFS/data/Title",
+	}
+}
